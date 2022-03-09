@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Coding bootcamp testimonials slider]()
+- Live Site URL: [Coding bootcamp testimonials slider](https://leslief10.github.io/coding-bootcamp-testimonials/)
 
 ## My process
 
