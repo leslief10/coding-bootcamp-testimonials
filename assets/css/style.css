@@ -1,0 +1,155 @@
+:root {
+  --primary-color: #202046;
+  --secondary-color: #BABACF;
+  --main-font: 'Inter', sans-serif;
+}
+
+body, html {
+  font-family: var(--main-font);
+}
+
+.main-container, .testimonial-container, .testimonial, .image-container, .text-container, .info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container {
+  position: relative;
+  min-width: 37.5rem;
+  height: 94vh;
+  margin-top: 4rem;
+  justify-content: flex-start;
+}
+
+.testimonial-container {
+  position: relative;
+  min-width: 37.5rem;
+  height: 79vh;
+}
+
+.testimonial {
+  position: absolute;
+  top: 0;
+  width: 33rem;
+  height: 52.5rem;
+  justify-content: center;
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: 3.5rem;
+  padding-top: 2.4rem;
+  justify-content: center;
+}
+
+.background-image {
+  width: 32.7rem;
+  height: 31rem;
+}
+
+.subject-picture {
+  position: absolute;
+  width: 25.4rem;
+  height: 25.4rem;
+  border-radius: 3%;
+  box-shadow: 0rem 1rem 1.8rem 0rem rgba(0,0,0,0.15);
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0.8rem;
+  width: 8rem;
+  height: 4rem;
+  border-radius: 50%;
+  box-shadow: 0rem 1rem 1.8rem 0rem rgba(0,0,0,0.15);
+}
+
+.button {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  background: #FFF;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background: #f4f2fc;
+}
+
+.button:active {
+  opacity: 0.5;
+}
+
+.previous-slide {
+  border-radius: 50% 0 0 50%;
+}
+
+.next-slide {
+  border-radius: 0 50% 50% 0;  
+}
+
+.text-container {
+  position: relative;
+}
+
+.quote-icon {
+  position: absolute;
+  top: 0;
+  width: 6rem;
+  height: 5rem;
+}
+
+.testimonial-text {
+  margin-top: 2.6rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.info-container {
+  margin-top: 2.2rem;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.testimonial-subject__name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.testimonial-subject__position {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.main-container-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  min-width: 37.5rem;
+  height: 7.1rem;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  color: var(--secondary-color);
+}
+
+.attribution a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: var(--primary-color);
+}
+

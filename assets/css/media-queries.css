@@ -1,0 +1,133 @@
+@media only screen and (min-width: 750px) {
+  .main-container {
+    height: 95vh;
+  }
+  .main-container-img {
+    min-width: auto;
+    height: 15.3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-container {
+    margin-top: 5rem;
+    height: 100vh;
+  }
+  .testimonial-container, .testimonial {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
+
+  .testimonial-container {
+    z-index: 1;
+  }
+
+  .testimonial {
+    position: relative;
+    padding: 0rem 2.5rem;
+    justify-content: center;
+  }
+
+  .image-container {
+    margin-bottom: 0;
+    padding-top: 0;
+    order: 2;
+  }
+
+  .background-image {
+    width: 44.7rem;
+    height: 42.1rem;
+  }
+
+  .subject-picture {
+    width: 33.4rem;
+    height: 33.4rem;
+  }
+
+  .button-container {
+    left: 8.6rem;
+    bottom: 2.3rem;
+  }
+
+  .text-container {
+    order: 1;
+    width: 61.5rem;
+    margin-right: -12rem;
+    z-index: 1;
+    margin-bottom: 3.4rem; /*This is so the container doesn't cover the button on the second slide*/
+  }
+
+  .quote-icon {
+    width: 12rem;
+    height: 10rem;
+    left: 9.4rem;
+  }
+
+  .testimonial-text {
+    margin-top: 6.4rem;
+    font-size: 3.1rem;
+    line-height: 4.4rem;
+    text-align: left;
+  }
+
+  .info-container {
+    margin-top: 5rem;
+    flex-direction: row;
+    align-self: flex-start;
+  }
+
+  .testimonial-subject__name, .testimonial-subject__position {
+    font-size: 1.9rem;
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  .main-container {
+    height: 100%;
+  }
+  .testimonial {
+    padding: 0rem 5rem;
+  }
+
+  .background-image {
+    width: 69.7rem;
+    height: 65.7rem;
+  } 
+
+  .subject-picture {
+    width: 54rem;
+    height: 54rem;
+  }
+
+  .text-container {
+    margin-bottom: 0;
+    padding-left: 1.5rem;
+    margin-right: -17rem;
+    width: 62.7rem;
+  }
+
+  .button-container {
+    left: 13.9rem;
+    bottom: 3.2rem;
+    width: 11.2rem;
+    height: 5.6rem;
+  }
+
+  .button {
+    width: 5.6rem;
+    height: 5.6rem;
+  }
+
+  .main-container-img {
+    position: relative;
+    align-self: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .text-container {
+    padding-left: 1rem;
+    margin-right: -16rem;
+  }
+}
